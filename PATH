@@ -1,0 +1,9 @@
+echo "path to file"
+read ptf
+
+export PATH=$PATH:$ptf
+
+echo  "export PATH=$PATH:$ptf" >> ~/.bashrc
+cat ~/.bashrc
+
+
