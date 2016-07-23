@@ -1,0 +1,8 @@
+echo "filename"
+read filename
+
+echo "destination"
+read destination
+
+sudo cp $filename $destination
+
