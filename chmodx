@@ -1,0 +1,4 @@
+echo "filename"
+read filename
+
+sudo chmod 755 $filename
